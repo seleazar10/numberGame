@@ -32,18 +32,27 @@
 
 			<div class="containerTwo">
 				<div class="fourth-sec-div">
-					<div id="userInputBox">
-						<p id="userInput">10</p>
+					<div id="userInputBox" class="clearfix">
+						<!-- <p id="userInput">10</p> -->
+						<form class="formForInputBox">
+							<input type="text" id="userinput" class="gamingFont" />
+						</form>
 					</div>
 					<button id="userInputCheckBtn" class="gamingFont">Check!</button>
 				</div>
 
 				<div class="fifth-sec-div">
 					<div class="dataTrackerSec">
-						<p>Too low</p>
-						<p>Score: 19</p>
+						<p id="msgToUserDisplay">
+							<span><i class="fas fa-chart-bar fa-2x"></i></span> low Score
+						</p>
+						<p id="currentScoreDisplay">
+							<span><i class="fas fa-gamepad fa-2x"></i></span> Score: 19
+						</p>
 
-						<p>Highscore: 0</p>
+						<p id="highscoreDisplay">
+							<span><i class="fas fa-medal fa-2x"></i></span> HighScore: 0
+						</p>
 					</div>
 				</div>
 			</div>

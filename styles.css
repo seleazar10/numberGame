@@ -53,30 +53,42 @@ body {
 	font-size: 300%;
 }
 
-#userInputBox {
-	border: white solid 4px;
-	padding: 20px;
-	margin: 20px;
-	text-align: center;
-	font-size: 300%;
-}
-
-/* .containerTwo {
-	
-} */
-
 .fourth-sec-div,
 .fifth-sec-div {
 	width: 50%;
 	height: 300px;
-	background-color: tomato;
 	float: left;
+	/* background-color: tomato; */
 }
 
-.dataTrackerSec {
+#userInputBox {
+	border: white solid 4px;
+	text-align: center;
+	font-size: 300%;
+	width: 200px;
+	margin: 20px;
+}
+
+.formForInputBox {
+	height: 100px;
+	width: 200px;
+}
+#userinput {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	font-size: 150%;
+	color: white;
+}
+
+.dataTrackerSec > * {
 	margin: 30px;
 }
 
 #userInputCheckBtn {
+	/* padding: 20px; */
 	margin: 20px;
+	width: 200px;
+	font-size: 150%;
 }
