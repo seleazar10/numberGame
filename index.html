@@ -4,9 +4,41 @@
 	<head>
 		<title>Number Game</title>
 		<link rel="stylesheet" , type="text/css" , href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/5f21950962.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<h1>Number Game</h1>
+		<div id="containerOne">
+			<div class="navbar first-sec-div clearfix">
+				<button id="playAgainBtn" class="gamingFont">Again!</button>
+				<p id="numRange">** Between 1 and 20 **</p>
+			</div>
+
+			<div class="second-sec-div clearfix">
+				<p class="lgFont center">Guess My Number!</p>
+			</div>
+
+			<div class="third-sec-div center clearfix">
+				<i class="fas fa-question-circle fa-8x"></i>
+			</div>
+
+			<div class="containerTwo">
+				<div class="fourth-sec-div">
+					<div id="userInputBox">
+						<p>HOLDER</p>
+					</div>
+					<button id="userInputCheckBtn" class="gamingFont">Check!</button>
+				</div>
+			</div>
+		</div>
 	</body>
 
 	<script src="./script.js"></script>

@@ -5,5 +5,55 @@
 }
 
 body {
-	background-color: beige;
+	background-color: #000;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	color: white;
+}
+
+/* recylce */
+
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.center {
+	text-align: center;
+}
+
+.gamingFont {
+	padding: 10px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+/* recylce */
+
+#containerOne {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.first-sec-div,
+.second-sec-div,
+.third-sec-div {
+	margin: 20px 10px 30px 10px;
+}
+
+#numRange {
+	float: right;
+}
+
+.lgFont {
+	font-size: 300%;
+}
+
+#userInputBox {
+	border: white solid 1px;
+	padding: 10px;
 }
