@@ -18,7 +18,8 @@
 	<body>
 		<div id="containerOne">
 			<div class="navbar first-sec-div clearfix">
-				<button id="playAgainBtn" class="gamingFont">Again!</button>
+				<button id="playAgainBtn" class="1 nav-btn gamingFont">Again!</button>
+				<button id="gameInfo" class="2 nav-btn gamingFont">Info</button>
 				<p id="numRange">** Between 1 and 20 **</p>
 			</div>
 
@@ -58,6 +59,19 @@
 							<span id="highscoreSpan">0</span>
 						</p>
 					</div>
+				</div>
+			</div>
+			<div id="containerThree">
+				<div id="popUpBgd" class="overlay pop-up hidden"></div>
+				<div id="popUpInfo" class="pop-up hidden">
+					<h2>How to play</h2>
+					<button id="popUpCldBtn">X</button>
+					<p>
+						1. Enter a number in the empty box 2. Press check to see if your
+						numbers match the random number 3. If your number match, you receive
+						1 point; if not, you lose 1 point 4. Press play again once your
+						score hit 0
+					</p>
 				</div>
 			</div>
 		</div>
